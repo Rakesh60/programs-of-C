@@ -1,0 +1,16 @@
+#include<stdio.h>
+void main()
+{
+    int n,i=0,ft,lt,temp,sum;
+    printf("Enter any no:");
+    scanf("%d",&n);
+    while(n>=1)
+    {
+        ft=n%10;
+        n=n/10;
+        i++;
+    }
+    printf("first digit:%d",ft);
+    lt=n%10;
+    printf("Last digit:%d",lt);
+}
